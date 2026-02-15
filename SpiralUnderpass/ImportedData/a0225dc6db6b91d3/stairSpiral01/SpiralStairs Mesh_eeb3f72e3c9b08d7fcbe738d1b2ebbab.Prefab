@@ -7,7 +7,7 @@
     "components": {
         "$id": 1,
         "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
-        "$rlength": 1,
+        "$rlength": 3,
         "$rcontent": [
             {
                 "$id": 2,
@@ -264,36 +264,61 @@
                     "z": 0
                 },
                 "m_ExternalColorSource": 0
+            },
+            {
+                "$id": 21,
+                "$type": "11|Game.Prefabs.UndergroundMesh, Game",
+                "name": "UndergroundMesh",
+                "active": true,
+                "m_IsTunnel": true,
+                "m_IsPipeline": false,
+                "m_IsSubPipeline": false
+            },
+            {
+                "$id": 22,
+                "$type": "12|Game.Prefabs.LodProperties, Game",
+                "name": "LodProperties",
+                "active": true,
+                "m_Bias": 0,
+                "m_ShadowBias": 0,
+                "m_LodMeshes": {
+                    "$id": 23,
+                    "$type": "13|Game.Prefabs.RenderPrefab[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"CID:cdd1427050799a767d74e96d26cdfaeb"
+                    ]
+                }
             }
         ]
     },
     "m_GeometryAsset": $fstrref:"CID:c8446ad2127fc1f78ab76f12111464c6",
     "m_SurfaceAssets": {
-        "$id": 21,
-        "$type": "11|Colossal.IO.AssetDatabase.AssetReference`1[[Colossal.IO.AssetDatabase.SurfaceAsset, Colossal.IO.AssetDatabase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][], Colossal.IO.AssetDatabase",
+        "$id": 24,
+        "$type": "14|Colossal.IO.AssetDatabase.AssetReference`1[[Colossal.IO.AssetDatabase.SurfaceAsset, Colossal.IO.AssetDatabase, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]][], Colossal.IO.AssetDatabase",
         "$rlength": 1,
         "$rcontent": [
             $fstrref:"CID:7bf6792b78520ae45e50dbd6e1ae272b"
         ]
     },
     "m_Bounds": {
-        "$type": "12|Colossal.Mathematics.Bounds3, Colossal.Mathematics",
+        "$type": "15|Colossal.Mathematics.Bounds3, Colossal.Mathematics",
         "min": {
-            "$type": "13|Unity.Mathematics.float3, Unity.Mathematics",
-            "x": -3.88942671,
-            "y": -2.12604427,
-            "z": -3.88942671
+            "$type": "16|Unity.Mathematics.float3, Unity.Mathematics",
+            "x": -5.00000048,
+            "y": -2.19974041,
+            "z": -5.00000048
         },
         "max": {
-            "$type": 13,
-            "x": 3.75449228,
+            "$type": 16,
+            "x": 4.99999952,
             "y": 6.16193676,
-            "z": 3.45228243
+            "z": 5.00000048
         }
     },
-    "m_SurfaceArea": 283.002472,
-    "m_IndexCount": 5232,
-    "m_VertexCount": 2930,
+    "m_SurfaceArea": 361.038452,
+    "m_IndexCount": 5322,
+    "m_VertexCount": 2962,
     "m_MeshCount": 1,
     "m_IsImpostor": false,
     "m_ManualVTRequired": false
