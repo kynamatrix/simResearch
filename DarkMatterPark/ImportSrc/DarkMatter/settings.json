@@ -1,0 +1,9 @@
+  {
+  "sharedAssets": {
+    "DarkMatter_LOD1_BaseColor.png":   "DarkMatter_BaseColor.png",
+    "DarkMatter_LOD1_ControlMask.png": "DarkMatter_ControlMask.png",
+    "DarkMatter_LOD1_Emissive.png":    "DarkMatter_Emissive.png",
+    "DarkMatter_LOD1_MaskMap.png":     "DarkMatter_MaskMap.png",
+    "DarkMatter_LOD1_Normal.png":      "DarkMatter_Normal.png"
+    }
+  }
