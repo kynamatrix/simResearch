@@ -1,0 +1,141 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.SurfacePrefab, Game",
+    "name": "Stonework Surface 09",
+    "active": true,
+    "version": 1,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 5,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.RenderedArea, Game",
+                "name": "RenderedArea",
+                "active": true,
+                "m_Version": 1,
+                "m_Material": $fstrref:"UnityObjectsMap:7e3debbf8da17b345852fff4a3722a42",
+                "m_Roundness": 0,
+                "m_LodBias": 0,
+                "m_RendererPriority": -97,
+                "m_DecalLayerMask": 3,
+                "m_BaseColor": {
+                    "$type": "3|UnityEngine.Color, UnityEngine.CoreModule",
+                    0.5,
+                    0.5,
+                    0.5,
+                    1
+                },
+                "m_BaseColorMap": $fstrref:"CID:e9b935f14398eb2549146d063a9d9ed0",
+                "m_NormalMap": $fstrref:"CID:798b321092d808656bf6c5cdaecb417e",
+                "m_MaskMap": $fstrref:"CID:f89ef9545a1f2c5509c9b075c3109a52",
+                "m_Metallic": 0,
+                "m_Smoothness": 0,
+                "m_NormalOpacity": 1,
+                "m_MetallicOpacity": 0,
+                "m_NormalAlphaSource": 0,
+                "m_MetallicAlphaSource": 0,
+                "m_UVScale": 0.4,
+                "m_EdgeNormal": 0,
+                "m_EdgeFadeRange": {
+                    "$type": "4|Unity.Mathematics.float2, Unity.Mathematics",
+                    "x": 0.01,
+                    "y": 0
+                },
+                "m_EdgeNormalRange": {
+                    "$type": 4,
+                    "x": 0.01,
+                    "y": 0
+                },
+                "m_EdgeNoise": {
+                    "$type": 4,
+                    "x": 0,
+                    "y": 0.01
+                }
+            },
+            {
+                "$id": 3,
+                "$type": "5|Game.Prefabs.SpawnableArea, Game",
+                "name": "SpawnableArea",
+                "active": true,
+                "m_Placeholders": {
+                    "$id": 4,
+                    "$type": "6|Game.Prefabs.AreaPrefab[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:cf94ed2336736854a929b0e5895adaf5"
+                    ]
+                },
+                "m_Probability": 100
+            },
+            {
+                "$id": 5,
+                "$type": "7|Game.Prefabs.UIObject, Game",
+                "name": "UIObject",
+                "active": true,
+                "m_Group": $fstrref:"UnityGUID:60c0e17c40a5f1b41bf9d2032670b81d",
+                "m_Priority": 1,
+                "m_Icon": "Media/Game/Icons/SurfaceConcrete02.svg",
+                "m_IsDebugObject": false
+            },
+            {
+                "$id": 6,
+                "$type": "8|Game.Prefabs.ServiceObject, Game",
+                "name": "ServiceObject",
+                "active": true,
+                "m_Service": $fstrref:"UnityGUID:5930db6811522d34495a9e16c4fd4c18"
+            },
+            {
+                "$id": 7,
+                "$type": "9|Game.Prefabs.Unlockable, Game",
+                "name": "Unlockable",
+                "active": true,
+                "m_RequireAll": {
+                    "$id": 8,
+                    "$type": "10|Game.Prefabs.PrefabBase[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        $fstrref:"UnityGUID:3e47e765f44f210409edf4e6229fd0df"
+                    ]
+                },
+                "m_RequireAny": {
+                    "$id": 9,
+                    "$type": 10,
+                    "$rlength": 0,
+                    "$rcontent": [
+                    ]
+                },
+                "m_IgnoreDependencies": false
+            }
+        ]
+    },
+    "m_Color": {
+        "$type": 3,
+        0.49,
+        0.49,
+        0.49,
+        1
+    },
+    "m_EdgeColor": {
+        "$type": 3,
+        0.482352942,
+        0.466666669,
+        0.4117647,
+        0.392156869
+    },
+    "m_SelectionColor": {
+        "$type": 3,
+        1,
+        1,
+        1,
+        1
+    },
+    "m_SelectionEdgeColor": {
+        "$type": 3,
+        1,
+        1,
+        1,
+        1
+    }
+}

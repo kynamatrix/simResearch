@@ -1,0 +1,81 @@
+{
+    "$id": 0,
+    "$type": "0|Game.Prefabs.StaticObjectPrefab, Game",
+    "name": "mnml Bench",
+    "active": true,
+    "version": 1,
+    "components": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 2,
+                "$type": "2|Game.Prefabs.ActivityLocation, Game",
+                "name": "ActivityLocation",
+                "active": true,
+                "m_Locations": {
+                    "$id": 3,
+                    "$type": "3|Game.Prefabs.ActivityLocation+LocationInfo[], Game",
+                    "$rlength": 1,
+                    "$rcontent": [
+                        {
+                            "$id": 4,
+                            "$type": "4|Game.Prefabs.ActivityLocation+LocationInfo, Game",
+                            "m_Activity": $fstrref:"UnityGUID:0812ca7f7b740cd439c5b3c718f64681",
+                            "m_Position": {
+                                "$type": "5|Unity.Mathematics.float3, Unity.Mathematics",
+                                "x": 0,
+                                "y": 0,
+                                "z": 0
+                            },
+                            "m_Rotation": {
+                                "$type": "6|Unity.Mathematics.quaternion, Unity.Mathematics",
+                                "value": {
+                                    "$type": "7|Unity.Mathematics.float4, Unity.Mathematics",
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 0,
+                                    "w": 1
+                                }
+                            }
+                        }
+                    ]
+                },
+                "m_InvertWhen": 0,
+                "m_AnimatedPropName": null,
+                "m_RequireAuthorization": false
+            }
+        ]
+    },
+    "m_Meshes": {
+        "$id": 5,
+        "$type": "8|Game.Prefabs.ObjectMeshInfo[], Game",
+        "$rlength": 1,
+        "$rcontent": [
+            {
+                "$id": 6,
+                "$type": "9|Game.Prefabs.ObjectMeshInfo, Game",
+                "m_Mesh": $fstrref:"CID:07d35d5f376466be990552ce216a382f",
+                "m_Position": {
+                    "$type": 5,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "m_Rotation": {
+                    "$type": 6,
+                    "value": {
+                        "$type": 7,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0,
+                        "w": 1
+                    }
+                },
+                "m_RequireState": 0
+            }
+        ]
+    },
+    "m_Circular": false
+}
