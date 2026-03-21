@@ -7,7 +7,7 @@
     "components": {
         "$id": 1,
         "$type": "1|System.Collections.Generic.List`1[[Game.Prefabs.ComponentBase, Game]], mscorlib",
-        "$rlength": 11,
+        "$rlength": 12,
         "$rcontent": [
             {
                 "$id": 2,
@@ -33,7 +33,7 @@
                 "m_SubNets": {
                     "$id": 5,
                     "$type": "5|Game.Prefabs.ObjectSubNetInfo[], Game",
-                    "$rlength": 13,
+                    "$rlength": 14,
                     "$rcontent": [
                         {
                             "$id": 6,
@@ -671,22 +671,71 @@
                                 "$rcontent": [
                                 ]
                             }
+                        },
+                        {
+                            "$id": 32,
+                            "$type": 6,
+                            "m_NetPrefab": $fstrref:"UnityGUID:1c2e5789db1c49d4c89992bd74e98bf0",
+                            "m_BezierCurve": {
+                                "$type": 7,
+                                "a": {
+                                    "$type": 8,
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 3.26
+                                },
+                                "b": {
+                                    "$type": 8,
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 3.26
+                                },
+                                "c": {
+                                    "$type": 8,
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 3.26
+                                },
+                                "d": {
+                                    "$type": 8,
+                                    "x": 0,
+                                    "y": 0,
+                                    "z": 3.26
+                                }
+                            },
+                            "m_NodeIndex": {
+                                "$type": 9,
+                                "x": 99,
+                                "y": 99
+                            },
+                            "m_ParentMesh": {
+                                "$type": 9,
+                                "x": 0,
+                                "y": 0
+                            },
+                            "m_Upgrades": {
+                                "$id": 33,
+                                "$type": 10,
+                                "$rlength": 0,
+                                "$rcontent": [
+                                ]
+                            }
                         }
                     ]
                 }
             },
             {
-                "$id": 32,
+                "$id": 34,
                 "$type": "11|Game.Prefabs.ObjectSubObjects, Game",
                 "name": "ObjectSubObjects",
                 "active": true,
                 "m_SubObjects": {
-                    "$id": 33,
+                    "$id": 35,
                     "$type": "12|Game.Prefabs.ObjectSubObjectInfo[], Game",
                     "$rlength": 3,
                     "$rcontent": [
                         {
-                            "$id": 34,
+                            "$id": 36,
                             "$type": "13|Game.Prefabs.ObjectSubObjectInfo, Game",
                             "m_Object": $fstrref:"UnityGUID:71a07d9cc3a03a044a4432ec551d6484",
                             "m_Position": {
@@ -710,7 +759,7 @@
                             "m_Probability": 100
                         },
                         {
-                            "$id": 35,
+                            "$id": 37,
                             "$type": 13,
                             "m_Object": $fstrref:"UnityGUID:71a07d9cc3a03a044a4432ec551d6484",
                             "m_Position": {
@@ -734,7 +783,7 @@
                             "m_Probability": 100
                         },
                         {
-                            "$id": 36,
+                            "$id": 38,
                             "$type": 13,
                             "m_Object": $fstrref:"UnityGUID:4297965747d45f0419bdb575a19d5767",
                             "m_Position": {
@@ -761,12 +810,12 @@
                 }
             },
             {
-                "$id": 37,
+                "$id": 39,
                 "$type": "16|Game.Prefabs.Unlockable, Game",
                 "name": "Unlockable",
                 "active": true,
                 "m_RequireAll": {
-                    "$id": 38,
+                    "$id": 40,
                     "$type": "17|Game.Prefabs.PrefabBase[], Game",
                     "$rlength": 2,
                     "$rcontent": [
@@ -775,7 +824,7 @@
                     ]
                 },
                 "m_RequireAny": {
-                    "$id": 39,
+                    "$id": 41,
                     "$type": 17,
                     "$rlength": 0,
                     "$rcontent": [
@@ -784,12 +833,12 @@
                 "m_IgnoreDependencies": true
             },
             {
-                "$id": 40,
+                "$id": 42,
                 "$type": "18|Game.Prefabs.CityServiceBuilding, Game",
                 "name": "CityServiceBuilding",
                 "active": true,
                 "m_Upkeeps": {
-                    "$id": 41,
+                    "$id": 43,
                     "$type": "19|Game.Prefabs.ServiceUpkeepItem[], Game",
                     "$rlength": 0,
                     "$rcontent": [
@@ -797,7 +846,7 @@
                 }
             },
             {
-                "$id": 42,
+                "$id": 44,
                 "$type": "20|Game.Prefabs.UIObject, Game",
                 "name": "UIObject",
                 "active": true,
@@ -807,7 +856,7 @@
                 "m_IsDebugObject": false
             },
             {
-                "$id": 43,
+                "$id": 45,
                 "$type": "21|Game.Prefabs.BuildingTerraformOverride, Game",
                 "name": "BuildingTerraformOverride",
                 "active": true,
@@ -853,7 +902,7 @@
                 },
                 "m_HeightOffset": 0,
                 "m_AdditionalSmoothAreas": {
-                    "$id": 44,
+                    "$id": 46,
                     "$type": "23|Game.Prefabs.BuildingTerraformOverride+SubLot[], Game",
                     "$rlength": 0,
                     "$rcontent": [
@@ -863,21 +912,21 @@
                 "m_DontLower": false
             },
             {
-                "$id": 45,
+                "$id": 47,
                 "$type": "24|Game.Prefabs.ObjectSubAreas, Game",
                 "name": "ObjectSubAreas",
                 "active": true,
                 "m_SubAreas": {
-                    "$id": 46,
+                    "$id": 48,
                     "$type": "25|Game.Prefabs.ObjectSubAreaInfo[], Game",
                     "$rlength": 1,
                     "$rcontent": [
                         {
-                            "$id": 47,
+                            "$id": 49,
                             "$type": "26|Game.Prefabs.ObjectSubAreaInfo, Game",
                             "m_AreaPrefab": $fstrref:"UnityGUID:846b2dc0a82234349b15535b6ffb5030",
                             "m_NodePositions": {
-                                "$id": 48,
+                                "$id": 50,
                                 "$type": "27|Unity.Mathematics.float3[], Unity.Mathematics",
                                 "$rlength": 4,
                                 "$rcontent": [
@@ -913,34 +962,173 @@
                 }
             },
             {
-                "$id": 49,
+                "$id": 51,
                 "$type": "28|Game.Prefabs.ServiceConsumption, Game",
                 "name": "ServiceConsumption",
                 "active": true,
                 "m_Upkeep": 400,
                 "m_ElectricityConsumption": 100,
                 "m_WaterConsumption": 0,
-                "m_GarbageAccumulation": 50,
+                "m_GarbageAccumulation": 0,
                 "m_TelecomNeed": 0
             },
             {
-                "$id": 50,
+                "$id": 52,
                 "$type": "29|Game.Prefabs.Park, Game",
                 "name": "Park",
                 "active": true,
                 "m_MaintenancePool": 0,
                 "m_AllowHomeless": false
+            },
+            {
+                "$id": 53,
+                "$type": "30|Game.Prefabs.ObjectSubLanes, Game",
+                "name": "ObjectSubLanes",
+                "active": true,
+                "m_SubLanes": {
+                    "$id": 54,
+                    "$type": "31|Game.Prefabs.ObjectSubLaneInfo[], Game",
+                    "$rlength": 3,
+                    "$rcontent": [
+                        {
+                            "$id": 55,
+                            "$type": "32|Game.Prefabs.ObjectSubLaneInfo, Game",
+                            "m_LanePrefab": $fstrref:"UnityGUID:37c8abdb015384f4e8b7ce9b5b2b6c9b",
+                            "m_BezierCurve": {
+                                "$type": 7,
+                                "a": {
+                                    "$type": 8,
+                                    "x": 0.1,
+                                    "y": 4.05,
+                                    "z": 3.26
+                                },
+                                "b": {
+                                    "$type": 8,
+                                    "x": 0.1,
+                                    "y": 4.05,
+                                    "z": 3.26
+                                },
+                                "c": {
+                                    "$type": 8,
+                                    "x": 0.1,
+                                    "y": 4.05,
+                                    "z": 3.26
+                                },
+                                "d": {
+                                    "$type": 8,
+                                    "x": 0.1,
+                                    "y": 4.05,
+                                    "z": 3.26
+                                }
+                            },
+                            "m_NodeIndex": {
+                                "$type": 9,
+                                "x": 0,
+                                "y": 0
+                            },
+                            "m_ParentMesh": {
+                                "$type": 9,
+                                "x": 0,
+                                "y": 0
+                            }
+                        },
+                        {
+                            "$id": 56,
+                            "$type": 32,
+                            "m_LanePrefab": $fstrref:"UnityGUID:37c8abdb015384f4e8b7ce9b5b2b6c9b",
+                            "m_BezierCurve": {
+                                "$type": 7,
+                                "a": {
+                                    "$type": 8,
+                                    "x": 0,
+                                    "y": 4.06,
+                                    "z": 3.26
+                                },
+                                "b": {
+                                    "$type": 8,
+                                    "x": 0,
+                                    "y": 4.06,
+                                    "z": 3.26
+                                },
+                                "c": {
+                                    "$type": 8,
+                                    "x": 0,
+                                    "y": 4.06,
+                                    "z": 3.26
+                                },
+                                "d": {
+                                    "$type": 8,
+                                    "x": 0,
+                                    "y": 4.06,
+                                    "z": 3.26
+                                }
+                            },
+                            "m_NodeIndex": {
+                                "$type": 9,
+                                "x": 1,
+                                "y": 1
+                            },
+                            "m_ParentMesh": {
+                                "$type": 9,
+                                "x": 0,
+                                "y": 0
+                            }
+                        },
+                        {
+                            "$id": 57,
+                            "$type": 32,
+                            "m_LanePrefab": $fstrref:"UnityGUID:37c8abdb015384f4e8b7ce9b5b2b6c9b",
+                            "m_BezierCurve": {
+                                "$type": 7,
+                                "a": {
+                                    "$type": 8,
+                                    "x": -0.1,
+                                    "y": 4.05,
+                                    "z": 3.26
+                                },
+                                "b": {
+                                    "$type": 8,
+                                    "x": -0.1,
+                                    "y": 4.05,
+                                    "z": 3.26
+                                },
+                                "c": {
+                                    "$type": 8,
+                                    "x": -0.1,
+                                    "y": 4.05,
+                                    "z": 3.26
+                                },
+                                "d": {
+                                    "$type": 8,
+                                    "x": -0.1,
+                                    "y": 4.05,
+                                    "z": 3.26
+                                }
+                            },
+                            "m_NodeIndex": {
+                                "$type": 9,
+                                "x": 2,
+                                "y": 2
+                            },
+                            "m_ParentMesh": {
+                                "$type": 9,
+                                "x": 0,
+                                "y": 0
+                            }
+                        }
+                    ]
+                }
             }
         ]
     },
     "m_Meshes": {
-        "$id": 51,
-        "$type": "30|Game.Prefabs.ObjectMeshInfo[], Game",
+        "$id": 58,
+        "$type": "33|Game.Prefabs.ObjectMeshInfo[], Game",
         "$rlength": 1,
         "$rcontent": [
             {
-                "$id": 52,
-                "$type": "31|Game.Prefabs.ObjectMeshInfo, Game",
+                "$id": 59,
+                "$type": "34|Game.Prefabs.ObjectMeshInfo, Game",
                 "m_Mesh": $fstrref:"CID:bf6a06472683cd8553c1f300b6d53d45",
                 "m_Position": {
                     "$type": 8,
